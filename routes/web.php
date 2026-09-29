@@ -7,13 +7,20 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('home', [
+        "title" => "Home",
+    ]);
 });
 
-Route::get('/about', function () {
-    return view('about');
+Route::get('/berita', function () {
+    return view('berita');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/profile', function () {
+    return view('profile', [
+        "name" => "Naura Natwa",
+        "nim" => "13242520052",
+        "prodi" => "Teknologi Informasi",
+        "gambar" => "nats.jpg",
+    ]);
 });
