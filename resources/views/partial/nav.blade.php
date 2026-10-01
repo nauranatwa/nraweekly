@@ -21,7 +21,7 @@
                     <li class="nav-item">
                         <a class="nav-link {{ ($title === 'Home' ? 'active' : '') }}"
                            aria-current="page"
-                           href="/home">
+                           href="/">
                             Home
                         </a>
                     </li>
@@ -35,6 +35,12 @@
                     <li class="nav-item">
                         <a class="nav-link {{ ($title === 'Profile' ? 'active' : '') }}">
                             Profile
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link {{ ($title === 'Contact' ? 'active' : '') }}">
+                            Contact
                         </a>
                     </li>
 
