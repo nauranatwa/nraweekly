@@ -20,26 +20,28 @@
 
                     <li class="nav-item">
                         <a class="nav-link {{ ($title === 'Home' ? 'active' : '') }}"
-                           aria-current="page"
-                           href="/">
+                           aria-current="page" href="/">
                             Home
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title === 'Berita' ? 'active' : '') }}">
+                        <a class="nav-link {{ ($title === 'Berita' ? 'active' : '') }}"
+                            href="/berita">
                             Berita
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title === 'Profile' ? 'active' : '') }}">
+                        <a class="nav-link {{ ($title === 'Profile' ? 'active' : '') }}"
+                            href="/profile">
                             Profile
                         </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link {{ ($title === 'Contact' ? 'active' : '') }}">
+                        <a class="nav-link {{ ($title === 'Contact' ? 'active' : '') }}"
+                            href="/contact">
                             Contact
                         </a>
                     </li>

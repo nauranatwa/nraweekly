@@ -1,0 +1,14 @@
+@extends('layouts.main')
+
+@section('content')
+    <div class="text-center">
+            <h2>{{$berita ['judul']}}</h2>
+            <h5>{{$berita ['penulis']}}</h5>
+    </div>
+    <div class= "text-justify">
+        <P>{{$berita ['isi']}}</p>
+        ABCDEFGHIJKLMNOPQRSTUVWXYZ
+    </div>
+
+        <a href="/berita">kembali</a>
+@endsection
