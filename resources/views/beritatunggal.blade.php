@@ -7,7 +7,7 @@
     </div>
     
     <div class= "text-justify">
-        <P>{{$berita ['isi']}}</p>
+        <P>{{$berita ['konten']}}</p>
     </div>
 
         <a href="/berita">kembali</a>

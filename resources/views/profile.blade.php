@@ -9,5 +9,5 @@
         Prodi : {{ $prodi }}
     </p>
 
-    <img src="images/{{ $gambar }}" width="200px" height="200">
+    <img src="images/{{ $gambar }}" width="200px" height="250">
 @endsection

@@ -8,7 +8,7 @@
             </h2>
             <h5>{{$berita ["penulis"]}}</h5>
             <P>
-                {{$berita ["isi"]}}
+                {{$berita ["konten"]}}
             </p>
         @endforeach
     </div>
